@@ -29,9 +29,6 @@ config:
 
 build:
   quality:
-    filter:
-      owner: graknlabs
-      branch: master
     build-analysis:
       image: graknlabs-ubuntu-20.04
       command: |
